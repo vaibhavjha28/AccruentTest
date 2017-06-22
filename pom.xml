@@ -26,13 +26,13 @@
 				<configuration>
 					<deploymentType>cloudhub</deploymentType>
 					<muleVersion>${mule.version}</muleVersion>
-					<username>vaibhavjha</username>
-					<password>Hanika$1234</password>
-					<applicationName>AccruentDemo1</applicationName>
-					<environment>Production</environment>
+					<username>${username}</username>
+					<password>${password}</password>
+					<applicationName>Accruent</applicationName>
+					<environment>${env}</environment>
 					<redeploy>true</redeploy>
 					<workerType>Micro</workerType>
-					<businessGroup>devops</businessGroup>
+					<businessGroup>${businessGroup}</businessGroup>
 				</configuration>
 				<executions>
 					<execution>
